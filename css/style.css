@@ -107,7 +107,7 @@ header p {
   background-color: #549ef2;
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1024px) {
   header {
     max-width: 500px;
     margin-bottom: 70px;
@@ -132,6 +132,15 @@ header p {
     gap: 30px;
   }
   .boxes .box {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    max-width: 350px;
+  }
+  .boxes-centar {
+    -webkit-box-flex: 1.2;
+        -ms-flex: 1.2;
+            flex: 1.2;
     max-width: 350px;
   }
   .boxes-centar .box {
