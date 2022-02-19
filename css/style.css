@@ -120,12 +120,10 @@ header p {
     max-width: 90%;
   }
   .boxes {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
