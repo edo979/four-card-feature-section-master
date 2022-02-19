@@ -130,15 +130,9 @@ header p {
     gap: 30px;
   }
   .boxes .box {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
     max-width: 350px;
   }
   .boxes-centar {
-    -webkit-box-flex: 1.2;
-        -ms-flex: 1.2;
-            flex: 1.2;
     max-width: 350px;
   }
   .boxes-centar .box {

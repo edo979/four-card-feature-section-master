@@ -138,12 +138,10 @@ header {
     gap: 30px;
 
     .box {
-      flex: 1;
       max-width: 350px;
     }
 
     &-centar {
-      flex: 1.2;
       max-width: 350px;
       .box {
         margin-bottom: 30px;
